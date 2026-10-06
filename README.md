@@ -32,6 +32,7 @@
 1. Instala **[Expo Go](https://expo.dev/go)** desde Play Store o App Store (es gratis).
 2. Escanea el QR de arriba con la cámara del teléfono.
 3. En la página del proyecto, toca **"Open in Expo Go"** (o descarga el build si está publicado).
+4. O instálala directamente con el **APK del [release v1.0.0](https://github.com/Ghuinz17/organizador-diario/releases/download/v1.0.0/organizador-diario-v1.0.0.apk)** (permite "orígenes desconocidos" en Android).
 
 <details>
 <summary><b>O ejecutarla en local con el QR del terminal</b></summary>
