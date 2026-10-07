@@ -21,18 +21,26 @@
 ## 📲 Prueba la app
 
 <p align="center">
-  <img src="assets/qr-expo.svg" width="260" alt="QR de descarga: https://expo.dev/@amolper/organizador-diario">
+  <img src="assets/qr-expo-go.svg" width="240" alt="QR para abrir la app en Expo Go">
+  <br>
+  <b>QR 1 — Expo Go:</b> carga la última actualización (canal <code>production</code>, runtime 1.0.0)
+  <br>
+  <small>código <code>exp://u.expo.dev/…?channel-name=production&runtime-version=1.0.0</code></small>
 </p>
 
 <p align="center">
-  <b>Escanea el código con la cámara del móvil</b> →
-  <a href="https://expo.dev/@amolper/organizador-diario">página del proyecto en expo.dev</a>
+  <img src="assets/qr-apk.svg" width="240" alt="QR de descarga directa del APK">
+  <br>
+  <b>QR 2 — APK:</b> descarga e instala el <a href="https://github.com/Ghuinz17/organizador-diario/releases/download/v1.0.0/organizador-diario-v1.0.0.apk">APK v1.0.0</a> del release
+  <br>
+  <small>permite «orígenes desconocidos» en Android para instalarlo</small>
 </p>
 
 1. Instala **[Expo Go](https://expo.dev/go)** desde Play Store o App Store (es gratis).
-2. Escanea el QR de arriba con la cámara del teléfono.
-3. En la página del proyecto, toca **"Open in Expo Go"** (o descarga el build si está publicado).
-4. O instálala directamente con el **APK del [release v1.0.0](https://github.com/Ghuinz17/organizador-diario/releases/download/v1.0.0/organizador-diario-v1.0.0.apk)** (permite "orígenes desconocidos" en Android).
+2. *(Solo la primera vez — SDK 57)* inicia sesión en Expo Go con tu cuenta de Expo si te lo pide.
+3. Escanea el **QR 1** con la cámara y elige «Abrir en Expo Go», o escanea el **QR 2** para instalar el APK directamente.
+
+> El QR 1 no abre una página web: codifica un enlace `exp://` de EAS Update que carga la última actualización publicada del canal `production` directamente en Expo Go.
 
 <details>
 <summary><b>O ejecutarla en local con el QR del terminal</b></summary>
@@ -148,7 +156,7 @@ organizador-diario/
 
 ## 🚀 Publicar con EAS
 
-El proyecto está vinculado a **[`@amolper/organizador-diario`](https://expo.dev/@amolper/organizador-diario)** y ya tiene una actualización publicada en el canal `production`.
+El proyecto está vinculado a la cuenta **[`@amolper`](https://expo.dev/accounts/amolper/projects/organizador-diario)** (el panel requiere iniciar sesión) y ya tiene una actualización publicada en el canal `production`.
 
 ```bash
 # Actualización de JS/sin nativos (segundos, sin compilar)
