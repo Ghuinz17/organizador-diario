@@ -21,26 +21,18 @@
 ## 📲 Prueba la app
 
 <p align="center">
-  <img src="assets/qr-expo-go.svg" width="240" alt="QR para abrir la app en Expo Go">
+  <img src="assets/qr-apk.svg" width="240" alt="QR de descarga del APK">
   <br>
-  <b>QR 1 — Expo Go:</b> carga la última actualización (canal <code>production</code>, runtime 1.0.0)
-  <br>
-  <small>código <code>exp://u.expo.dev/…?channel-name=production&runtime-version=1.0.0</code></small>
-</p>
-
-<p align="center">
-  <img src="assets/qr-apk.svg" width="240" alt="QR de descarga directa del APK">
-  <br>
-  <b>QR 2 — APK:</b> descarga e instala el <a href="https://github.com/Ghuinz17/organizador-diario/releases/download/v1.0.0/organizador-diario-v1.0.0.apk">APK v1.0.0</a> del release
+  <b>Escanea el código</b> para descargar e instalar el <a href="https://github.com/Ghuinz17/organizador-diario/releases/download/v1.0.0/organizador-diario-v1.0.0.apk">APK v1.0.0</a>
   <br>
   <small>permite «orígenes desconocidos» en Android para instalarlo</small>
 </p>
 
-1. Instala **[Expo Go](https://expo.dev/go)** desde Play Store o App Store (es gratis).
-2. *(Solo la primera vez — SDK 57)* inicia sesión en Expo Go con tu cuenta de Expo si te lo pide.
-3. Escanea el **QR 1** con la cámara y elige «Abrir en Expo Go», o escanea el **QR 2** para instalar el APK directamente.
+1. Escanea el QR con la cámara del móvil.
+2. Descarga e instala el **APK** (permite «orígenes desconocidos» en Android si te lo pide).
+3. Abre **Organizador Diario** desde el cajón de aplicaciones.
 
-> El QR 1 no abre una página web: codifica un enlace `exp://` de EAS Update que carga la última actualización publicada del canal `production` directamente en Expo Go.
+> El QR apunta al APK del [release v1.0.0](https://github.com/Ghuinz17/organizador-diario/releases/tag/v1.0.0): un enlace permanente, alojado en GitHub.
 
 <details>
 <summary><b>O ejecutarla en local con el QR del terminal</b></summary>
